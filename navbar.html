@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASAI Navbar</title>
+    <style>
+        #container{
+            width: 100%;
+            height: 60px;
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: space-around;
+            
+        }
+       
+        #container>div:first-child{
+            width: 10%;
+            height: 100%;
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: space-around;
+        }
+        #container>div:last-child{
+            width: 70%;
+            height: 100%;
+            /* border: 1px solid teal; */
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #container>div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        p+div{
+            display: flex;
+            background-color:#f2fdff ;
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+           
+        }
+        p+div>img{
+            width: 20px;
+            height: 20px;
+            margin:14px 0px 0px 10px
+
+        }
+        select:hover{
+            color: #ed3873;
+        }
+        button:hover{
+            color: #ed3873;
+         }
+        button{
+            background-color: white;
+            border:2px solid #ed3873;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #ed3873;
+            padding: 10px 15px;
+        }
+        div>select+p:hover{
+            color: #ed3873;
+
+        }
+        div>select+p+p:hover{
+            color: #ed3873;
+
+        }
+        div>select+p+p+p:hover{
+            color: #ed3873;
+        }
+        div>select+p+p+p+p:hover{
+            color: #ed3873;
+        }
+        div>select+p+p+p+p+p:hover{
+            color: #ed3873;
+        }
+       p+div:hover{
+            color: #ed3873;
+        }
+        select{
+            border: 0px;
+            font-size: 14px;
+        }
+        
+       
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <img src="https://www.masaischool.com/img/navbar/logo.svg" alt="logo">
+        </div>
+        <div>
+            <select>
+                <option value="Full Stack Web Development">COURSES</option>
+                <option value="Full Stack Web Development">FSWD</option>
+                <option value="Full Stack Android Development">FSAD</option>
+
+            </select>
+            <p>FEES & ISA</p>
+            <p>ABOUT US</p>
+            <p>HIRE FROM US</p>
+            <p>FAQ</p>
+            <p>EVENTS</p>
+            <div>
+                <p>REFER & EARN</p>
+                <img src="https://www.masaischool.com/img/referral/hand.png" alt="Error">
+            </div>
+            <button>LOGIN</button>
+        </div>
+        
+    </div>
+</body>
+</html>
