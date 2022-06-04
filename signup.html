@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+
+    <style>
+        #container{
+            display: grid;
+            grid-template-columns: repeat(1, 320px);
+            grid-template-rows: repeat(5, 60px);
+            align-content: space-around;
+            margin: auto;
+            width: 27%;
+            height: 540px;
+            background-color:#48c9b0;  
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            margin-top: 100px;
+            padding: 0px 0px 40px 70px;
+        }
+        #container>input{
+            padding-left: 20px;
+            border: none;
+            font-size: 17px;
+        }
+        button{
+            background-color: #17a589;
+            color: white;
+            height: 65px;
+            border: none;
+            font-size: 17px;
+        }
+        p{
+            font-size: 25px;
+            text-align: center;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <p>- Visitor -</p>
+        <input type="text" name="name" placeholder="Full name">
+        <input type="email" name="email" placeholder="Email">
+        <input type="text" name="organization" placeholder="Organization">
+        <button>SIGN UP</button>
+        <button>RETURN</button>
+    </div>
+    
+</body>
+</html>
