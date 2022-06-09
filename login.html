@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: #4886D1;
+        }
+        
+        #box{
+            background-color: white;
+            width:25%;
+            margin: auto;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+            border-radius: 8px;
+            padding-bottom: 40px;
+            padding-top: 40px;
+            text-align: center;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        }
+
+        #box>h1{
+            padding-bottom: 40px;
+            background-color: white;
+        }
+       
+        input+input{
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        .input{
+            padding:10px;
+            width:95%;
+            font-size: 18px;
+            border-bottom: 2px solid gray;
+            border-top: transparent;
+            border-right: transparent;
+            border-left: transparent;
+            background-color: white;
+            
+        }
+        #button{
+            padding:20px 10px;
+            width:105%;
+            color:white;
+            background-color: #755BB9;
+            border: none;
+            margin-top: 15px;
+        }
+        #button~p{
+            color: #1877F2;
+            background-color: white;
+ 
+        }
+        #button+p{
+            margin-top: 50px;
+            margin-bottom: -10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="box">
+        <h1>Login</h1>
+        <input class="input" type="email" placeholder="Email">
+        <input class="input" type="password" placeholder="Password">
+        <button id="button">LOG IN</button>
+        <p>Forgot Password ?</p>
+        <p>Don't have an account ? Sign up</p>
+        
+    </div>
+</body>
+</html>
